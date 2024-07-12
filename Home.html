@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>StudyEmber</title>
+</head>
+
+<body>
+    <header>
+        <div class="nav-container">
+            <p class="para">StudyEmber</p>
+           
+            <ul class="list">
+                <li><a href="Courses.html">Courses</a></li>
+                <li class="dropdown">
+                    <a>About Us</a>
+                    <div class="dropdown-content">
+                        <a href="Terms.html">Terms of Service</a>
+                        <a href="Privacy.html">Privacy Policy</a>
+                    </div>
+                </li>
+                <li><a href="#gotocontact">Contact Us</a></li>
+                <li><a class="logn" href="Login.html">Login</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section class="background">
+            <div class="sep1">
+                <p class="head1">TODAY'S THE DAY</p>
+                <p class="head2">Learn from the world's best.</p>
+                <form class="contact-form" action="your_backend_script.php" method="POST">
+                    <input type="email" id="email" name="email" placeholder="Your email address" required>
+                    <input type="password" id="password" name="password" placeholder="Password" required>
+                    <button type="submit" class="btn">SIGN UP</button>
+                </form>
+                <p class="para2">Already a user? <a class="option" href="Login.html">Login</a></p>
+            </div>
+            <div class="sep2" id="move5">
+                <h2 class="m6">Join StudyEmber</h2>
+                <hr>
+                <p class="m7">Dive into our transformative learning experiences designed to empower you in
+                    today's dynamic digital world. Explore a curated collection of courses crafted by industry
+                    experts, ensuring you thrive in an ever-evolving landscape of knowledge. Start your journey
+                    with StudyEmber today and unlock new opportunities to excel and innovate in your chosen
+                    field.</p>
+                <a href="Courses.html"><button>Explore</button></a>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials">
+            <h2>Testimonials</h2>
+            <div class="testimonial-container">
+                <div class="testimonial">
+                    <p>"StudyEmber has transformed the way I learn. The courses are well-structured and the instructors
+                        are top-notch."</p>
+                    <h4>- John Doe</h4>
+                </div>
+                <div class="testimonial">
+                    <p>"The flexible learning schedule allowed me to balance my studies with my job. Highly recommend
+                        StudyEmber!"</p>
+                    <h4>- Jane Smith</h4>
+                </div>
+                <div class="testimonial">
+                    <p>"A fantastic platform with a great variety of courses. I've learned so much and feel more
+                        confident in my skills."</p>
+                    <h4>- Mark Johnson</h4>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="faq">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <h3>What is StudyEmber?</h3>
+                    <p>StudyEmber is an online learning platform offering a wide range of courses from leading
+                        institutions and industry experts.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How do I sign up?</h3>
+                    <p>To sign up, click on the 'Sign Up' button on the homepage and fill out the registration form with
+                        your details.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Are the courses free?</h3>
+                    <p>We offer both free and paid courses. Check the course details to see the pricing information.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Can I get a certificate?</h3>
+                    <p>Yes, you can earn a certificate upon completing a course and meeting all the requirements.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="gotocontact">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-envelope"></i> contact@studyember.com</p>
+                <p><i class="fas fa-phone"></i> +123 456 7890</p>
+                <p><i class="fas fa-location-dot"></i>123 Learning St, Knowledge City, Education Country</p>
+            </div>
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <form class="newsletter-form" action="subscribe.php" method="POST">
+                    <input type="email" name="email" placeholder="Your email address" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/bisma-arshad-749785276?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                    target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 StudyEmber. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: rgb(18, 17, 17);
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#colchn {
+    color:white;
+    font-size: 40px;
+    margin: 5px 0;
+    padding: 20px 0;
+}
+
+hr {
+    border: 1px solid white;
+    width: 80%;
+    margin: auto;
+}
+
+main {
+    padding: 20px;
+}
+
+.courses-container {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 49px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.course {
+    border: 1px solid rgb(44, 42, 42);
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 100%; 
+}
+
+.course a {
+    display: block;
+    position: relative;
+    height: 100%; 
+}
+
+.course img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.course:hover img {
+    transform: scale(1.1);
+}
+
+.course-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    box-sizing: border-box;
+    transition: background-color 0.3s ease;
+}
+
+.course-info:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.course-title {
+    color: white;
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.course-price{
+    color: white;
+    font-size: 14px;
+    margin: 3px 0;
+    display: inline-block;
+}
+.course-rating {
+    color: rgb(249, 206, 34);
+    font-size: 14px;
+    margin: 3px 0;
+    display: inline-block;
+}
+#okiii{
+    color: white;
+}
+.course-rating span {
+    margin-left: 5px;
+}

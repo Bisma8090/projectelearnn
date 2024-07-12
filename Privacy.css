@@ -1,0 +1,45 @@
+html {
+    background-color: black;
+}
+
+#colchn {
+    color: rgb(231, 37, 37);
+    text-align: center;
+    font-size: 40px;
+    margin-top: 5px;
+}
+
+main {
+    position: absolute;
+    top: 105px; 
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: rgb(17, 16, 16);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    color: white;
+    max-width: 800px;
+    margin: auto;
+}
+
+.container h1,
+.container h2,
+.container p {
+    margin-bottom: 15px;
+}
+
+.mailcol {
+    color: rgb(231, 37, 37); 
+    text-decoration: none;
+}
+
+.mailcol:hover {
+    text-decoration: underline;
+}

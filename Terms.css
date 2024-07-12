@@ -1,0 +1,49 @@
+html{
+    background-color: black;
+}
+#colchn{
+color: rgb(231, 37, 37);
+text-align: center;
+font-size: 40px;
+margin-top: 5px;}
+
+main {
+    position: absolute;
+    top: 105px; 
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.terms-container {
+    background-color: rgb(17, 16, 16);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    color: white;
+    max-width: 800px;
+    margin: auto;
+}
+
+
+.terms-container h1,
+.terms-container h2,
+.terms-container p,
+.terms-container ol {
+    margin-bottom: 15px;
+}
+
+.terms-container ol li {
+    margin-bottom: 10px;
+}
+.mailcol{
+    color: rgb(231, 37, 37); 
+    text-decoration: none;
+}
+.mailcol:hover{
+    text-decoration: underline;
+
+}
